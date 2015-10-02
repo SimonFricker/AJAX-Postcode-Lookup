@@ -20,4 +20,6 @@ $town = $address_data[2]->long_name;
 $county = $address_data[3]->long_name;
 
 $array = array('street' => $street, 'town' => $town, 'county' => $county);
-echo json_encode($array);?>
+echo json_encode($array);
+
+?>
